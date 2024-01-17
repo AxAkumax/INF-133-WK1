@@ -20,7 +20,7 @@ body{
     border-width: 0.1vw;
     border-radius: 5vw;
     border-color: #5e5244;
-  }
+}
   .navigation{
     padding-top: 1vw;
     height: 4vw;
@@ -28,35 +28,35 @@ body{
     background-color: #bfb09f;
     display:flex;
     justify-content: space-evenly;
-  }
+}
   a:link {
     text-decoration: none; 
     color: #5e5244;
-  }
+}
   a:visited { 
     text-decoration: none; 
     color: #5e5244;
-  }
+}
   a:hover { 
     text-decoration: none; 
     color: #5e5244;
-  }
+}
   a:active { 
     text-decoration: none; 
     color: #5e5244;
-  }
+}
   #home:hover{
     background-color: #ded8ce;
-  }
+}
   #about:hover{
     background-color: #ded8ce;
-  }
+}
   #projects:hover{
     background-color: #ded8ce;
-  }
+}
   #resume:hover{
     background-color: #ded8ce;
-  }
+}
   #contact:hover{
     background-color: #ded8ce;
-  }
+}

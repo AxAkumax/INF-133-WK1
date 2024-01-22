@@ -70,7 +70,7 @@ h1{
 p{
   margin: auto;
 }
-bq{
+.bq{
   padding-right: 2vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5vw;

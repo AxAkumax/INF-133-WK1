@@ -87,6 +87,9 @@ body{
   border-radius: 5vw;
   border-color: #5e5244;
 }
+heading{
+  position: fixed;
+}
 .navigation{
   padding-top: 1vw;
   height: 4vw;

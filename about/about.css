@@ -63,12 +63,9 @@ body{
 h1{
   text-align: center;
 }
-#introduction, section{
-  margin: auto;
-  padding-top: 3vw;
-}
 #introduction{
   margin: auto;
+  padding-top: 3vw;
   padding-right: 2vw;
 }
 .bq #quote{
@@ -78,6 +75,5 @@ h1{
   font-weight: bold;
 }
 .bq #source{
-  padding-right: 6vw;
-
+  padding-right: 8vw;
 }

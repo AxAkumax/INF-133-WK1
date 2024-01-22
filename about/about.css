@@ -63,15 +63,21 @@ body{
 h1{
   text-align: center;
 }
-#introduction{
+#introduction, section{
   margin: auto;
   padding-top: 3vw;
 }
-p{
+#introduction{
   margin: auto;
+  padding-right: 2vw;
 }
 .bq #quote{
-  padding-right: 2vw;
+  padding-right: 4vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5vw;
+  font-weight: bold;
+}
+.bq #source{
+  padding-right: 6vw;
+
 }

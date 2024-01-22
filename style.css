@@ -71,7 +71,7 @@ body{
   background-color: #bfb09f;
   padding-right: 2vw;
   padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-bottom: 1vw;
 }
 #home, #about, #contact, #projects, #resume{
   margin-top: 1vw;

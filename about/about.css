@@ -63,7 +63,10 @@ body{
 h1{
   text-align: center;
 }
+#introduction{
+  margin: auto;
+  padding-top: 3vw;
+}
 p{
   margin: auto;
-  padding: 3vw;
 }

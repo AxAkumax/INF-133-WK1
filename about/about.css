@@ -1,79 +1,119 @@
 html {
-    height: 100%;
-    width: 100%;
-    background-color: #ded8ce;
+  height: 100%;
+  width: 100%;
+  background-color: #ded8ce;
 }
 body{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 #home, #about, #contact, #projects, #resume{
-    margin-top: 1vw;
-    margin-right: 2vw;
-    margin-left: 1vw;
-    font-size: 1.1vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-family: Times New Roman;
-    background-color: #bfb09f;
-    border-style:solid;
-    border-width: 0.1vw;
-    border-radius: 5vw;
-    border-color: #5e5244;
-  }
-  .navigation{
-    padding-top: 1vw;
-    height: 4vw;
-    padding-bottom: 1vw;
-    background-color: #bfb09f;
-    display:flex;
-    justify-content: space-evenly;
-  }
-  a:link {
-    text-decoration: none; 
-    color: #5e5244;
-  }
-  a:visited { 
-    text-decoration: none; 
-    color: #5e5244;
-  }
-  a:hover { 
-    text-decoration: none; 
-    color: #5e5244;
-  }
-  a:active { 
-    text-decoration: none; 
-    color: #5e5244;
-  }
-  #home:hover{
-    background-color: #ded8ce;
-  }
-  #about:hover{
-    background-color: #ded8ce;
-  }
-  #projects:hover{
-    background-color: #ded8ce;
-  }
-  #resume:hover{
-    background-color: #ded8ce;
-  }
-  #contact:hover{
-    background-color: #ded8ce;
-  }
-h1{
-  text-align: center;
+  margin-top: 1vw;
+  margin-right: 2vw;
+  margin-left: 1vw;
+  font-size: 1.1vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-family: Times New Roman;
+  background-color: #bfb09f;
+  border-style:solid;
+  border-width: 0.1vw;
+  border-radius: 5vw;
+  border-color: #5e5244;
 }
-#introduction{
-  margin: auto;
-  padding-top: 2vw;
-  padding-right: 2vw;
+.navigation{
+  padding-top: 1vw;
+  height: 4vw;
+  padding-bottom: 1vw;
+  background-color: #bfb09f;
+  display:flex;
+  justify-content: space-evenly;
+}
+a:link {
+  text-decoration: none; 
+  color: #5e5244;
+}
+a:visited { 
+  text-decoration: none; 
+  color: #5e5244;
+}
+a:hover { 
+  text-decoration: none; 
+  color: #5e5244;
+}
+a:active { 
+  text-decoration: none; 
+  color: #5e5244;
+}
+#home:hover{
+  background-color: #ded8ce;
+}
+#about:hover{
+  background-color: #ded8ce;
+}
+#projects:hover{
+  background-color: #ded8ce;
+}
+#resume:hover{
+  background-color: #ded8ce;
+}
+#contact:hover{
+  background-color: #ded8ce;
+}
+h1{
+text-align: center;
+font-size: 3vw;
+}
+.bq{
+background-color: #e6e0da;
+padding: 1vw;
+border-style: solid;
+border-width: 0.1vw;
+border-color: #e6e0da;
+}
+.my_cs_journey{
+display: flex;
+align-items: center;
+}
+.quote-container{
+margin: 0%;
+display: inline-block;
+float: right;
+}
+.text-container{
+flex:1;
+margin: 0%;
+}
+
+aside{
+width: 50vw;
 }
 .bq #quote{
-  padding-right: 4vw;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5vw;
-  font-weight: bold;
+font-size: 1.6vw;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bq #source{
-  padding-right: 8vw;
+padding-left: 6vw;
+font-size: 1.2vw;
+}
+section{
+padding-left: 3vw; 
+padding-right: 3vw; 
+padding-top: 0vw; 
+margin-top: 0vw; 
+font-size: 1.2vw;
+line-height: 1.6vw;
+}
+h2{
+padding-right: 3vw;
+font-size: 1.8vw;
+text-align: center;
+}
+.about-footer{
+height: 5vw;
+background-color: #bfb09f;
+padding-right: 2vw;
+padding-top: 2vw;
+padding-bottom: 1.5vw;
 }

@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Contact</title>
   <link href="contact.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
+  
 </head>
 <body>
   <nav>
@@ -19,7 +18,51 @@
       <button id="contact"><a href="contact.html">Contact</a></button>
     </div>
   </nav>
-<h1> Contact Information </h1>
-<p><i class="fa-brands fa-linkedin" style="width: 3vw;"></i></p>
+  <h1> Contact Information &#9742;</h1>
+  <div class="contact-info">
+  <p style="margin-left: 17.5vw; font-size: 1.5vw;"> 
+    <a href = "mailto:akshita.akumalla@gmail.com" target="_blank">              <span style="font-size: 3vw;">&#9993; </span> </a>
+    &ensp;akshita.akumalla@gmail.com</p>
+    
+    <a href="https://www.linkedin.com/in/akshita-akumalla-240bab231" target="_blank">
+    <img 
+      src = "linked-in-logo.png"
+      style="width: 2vw; display:block;border-radius: 50%; margin-left: 17.5vw;"
+    />
+    </a>
+    
+    <p style="transform: translate(20vw, -3.5vw); font-size: 1.5vw;">
+      &ensp;akshita-akumalla-240bab231</p>
+  </div>
+<!--- Alternate google form<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3GixO-vuJAU0CeC_Deqh9wn-DWfyWNCp-Zw9hYE9VoeF5Vw/viewform?embedded=true" width="640" height="645" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+<div class="contact-form">
+  <h3 style="margin-left: 12vw; font-size: 2.5vw;">Contact Form</h3>
+
+  <form action="/submit" method="post" style="font-size: 1.3vw;">
+      <label for="Name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    <br>
+    <br>
+    <label for="message">Message:</label>
+    <br>
+    <br>
+    <textarea id="message" name="message" rows="4" cols="25" required>
+    </textarea>
+
+      <br>
+    <br>
+      <input type="submit" value="Submit">
+  </form>
+</div>
+  <footer>
+    <div class="contact-footer">
+  <p style="color: #5e5244; padding-left: 2vw; padding-bottom: 1.5vw; font-size: 1.3vw;">&#169; Akshita Akumalla 2024</p>
+    </div>
+  </footer>
 </body>
 </html>

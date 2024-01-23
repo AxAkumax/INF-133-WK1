@@ -60,3 +60,7 @@ body{
   #contact:hover{
     background-color: #ded8ce;
 }
+h1{
+  text-align: center;
+  padding-top: 2vw;
+}

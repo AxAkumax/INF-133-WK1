@@ -11,12 +11,12 @@ body{
   margin-top: 1vw;
   margin-right: 2vw;
   margin-left: 1vw;
+  margin-bottom: 1vw;
   font-size: 1.1vw;
   padding-left: 3vw;
   padding-right: 3vw;
-  padding-top: 0.5vw;  
-  padding-bottom: 0.5vw;
-  margin-bottom: 1vw;
+  padding-top: 0.5vw;
+  padding-bottom: 2vw;
   font-family: Times New Roman;
   background-color: #bfb09f;
   border-style:solid;
@@ -34,19 +34,19 @@ body{
 }
 a:link {
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:visited { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:hover { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:active { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 #home:hover{
   background-color: #ded8ce;

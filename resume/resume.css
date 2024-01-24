@@ -91,4 +91,6 @@ background-color: white;
 }
 #download-button:hover{
 background-color: #bfb09f;
+margin-top: 2vw;
+margin-bottom: 2vw;
 }

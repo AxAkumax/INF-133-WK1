@@ -144,7 +144,7 @@ a:active {
   color: #5e5244;
   font-size: 1.5vw;
 }
-#my-photo{
+.empty-box #my-photo{
   width: 12vw; 
   height: 13vw; 
   border-radius: 50%; 

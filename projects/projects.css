@@ -101,3 +101,17 @@ background-color: #b09e8b;
 .text{
 font-size: 1.2vw;
 }
+#git-text{
+padding-left: 45vw;
+}
+#github{
+margin-bottom: 2vw;
+margin-left: 47vw;
+border-color: #b09e8b;
+background-color: #b09e8b;
+padding-left: 2vw;
+padding-right: 2vw;
+}
+#github:hover{
+background-color: #ded8ce;
+}

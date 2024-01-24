@@ -100,19 +100,19 @@ body{
 }
 a:link {
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:visited { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:hover { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 a:active { 
   text-decoration: none; 
-  color: #5e5244;
+  color:black;
 }
 #home:hover{
   background-color: #ded8ce;
@@ -141,7 +141,7 @@ a:active {
   border-radius: 2vw;
 }
 #intro{
-  color: #5e5244;
+  color:black;
   font-size: 1.5vw;
 }
 .empty-box #my-photo{
